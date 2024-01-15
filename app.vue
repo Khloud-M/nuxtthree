@@ -1,15 +1,14 @@
 <template>
-  <nav>
-    <ul>
-      <li>
-        <NuxtLink to="/"> main </NuxtLink>
-      </li>
-      <li>
-        <NuxtLink to="/about"> about </NuxtLink>
-      </li>
-    </ul>
-  </nav>
   <div>
-    <NuxtPage />
+    <!-- <NuxtLayout :name="layout">
+      <NuxtPage />
+    </NuxtLayout> -->
+    <NuxtLayout>
+      <NuxtPage />
+    </NuxtLayout>
   </div>
 </template>
+<script setup>
+// const layout = "custom";
+</script>
+
