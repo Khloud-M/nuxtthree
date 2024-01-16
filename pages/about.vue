@@ -9,4 +9,7 @@
 function enableCustomLayout() {
   setPageLayout("custom");
 }
+useHead({
+  title: "about",
+});
 </script>
