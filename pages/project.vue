@@ -26,6 +26,9 @@ const repos = computed(() => {
   return data.value.filter((repo) => repo.type === "Organization");
 });
 console.log(repos);
+definePageMeta({
+  colorMode: "light",
+});
 </script>
 
 <style>
